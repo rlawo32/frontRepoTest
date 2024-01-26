@@ -4,11 +4,11 @@ import axios from "axios";
 import styled from "styled-components";
 
 import HeaderNavigation from "../../navigation/HeaderNavigation";
+import FooterNavigation from "../../navigation/FooterNavigation";
 import LectureListMainView from "./LectureListMainView";
 import LectureListToolView from "./LectureListToolView";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faArrowUpLong as topIcon} from "@fortawesome/free-solid-svg-icons";
-import FooterNavigation from "../../navigation/FooterNavigation";
 
 const LectureEventList = styled.div`
   position: relative;
