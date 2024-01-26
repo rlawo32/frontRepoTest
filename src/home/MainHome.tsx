@@ -54,13 +54,13 @@ const MainHome = ():any => {
                 <FontAwesomeIcon icon={topIcon} className="icon-custom" />
             </div>
 
-            <MainRecommendEvent />
+            {/*<MainRecommendEvent />*/}
 
-            <MainCategoryEvent />
+            {/*<MainCategoryEvent />*/}
 
-            <MainRecentEvent />
+            {/*<MainRecentEvent />*/}
 
-            <MainInformEvent />
+            {/*<MainInformEvent />*/}
 
             <FooterNavigation />
         </Styled.MainHomeView>
